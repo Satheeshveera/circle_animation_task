@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+	background-image: url("./naturebg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.subhead1{
+    font-weight: 400;
+    color: #003B5C;
+}
+.subhead2{
+    font-weight: 600;
+    color: #003B5C;
+}
+.line{
+    width: 165px;
+    height: 6px;
+    background: orange;
+}
+.week4-btn{
+    color: #003B5C !important;
+    border: 1px solid !important;
+    background: #fff !important;
+}
+.week2-btn{
+    background: #003B5C !important;
+    
+}
+
+/* progress bar  */
+ 
+	  
+
+/*===== The CSS =====*/
+#circle2 {
+	height: 34rem;
+    transform: rotate(-90deg);
+    width: 28rem;
+    position: absolute;
+	left: 26rem;
+    top: -8.1rem;
+  }
+
+#circle {
+	height: 34rem;
+    transform: rotate(-90deg);
+    width: 28rem;
+    position: absolute;
+    left: 39px;
+    top: -8.1rem;
+  }
+  
+  .progress-bar__background {
+	fill: none;
+	stroke: rgb(240, 239, 239);
+	stroke-width:4;
+  }
+  
+  .progress-bar__progress {
+	fill: none;
+	stroke: rgb(240, 239, 239);
+	stroke: #FFD100;
+	background-color: #FFD100;
+	opacity: 0.8;
+	background: repeating-linear-gradient( -45deg, #FFD100, #FFD100 5px, #e5e5f7 5px, #e5e5f7 25px );
+	stroke-dasharray: 100 100;
+	stroke-dashoffset: 100;
+	stroke-width: 4;
+	transition: stroke-dashoffset 1s ease-in-out;
+ 
+  }
+
+  #inner_circle {
+	height: 20.5rem;
+    transform: rotate(-90deg);
+    width: 19rem;
+    position: absolute;
+	left: 5.5rem;
+    top: -0.3rem;
+  }
+  
+  .inner_progress-bar__background {
+	fill: none;
+	stroke: rgb(240, 239, 239);
+	stroke-width:6;
+  }
+  
+  .inner_progress-bar__progress {
+	fill: none;
+	stroke: rgb(240, 239, 239);
+	stroke: #fae690;
+	stroke-dasharray: 100 100;
+	stroke-dashoffset: 100;
+	stroke-width: 6;
+	transition: stroke-dashoffset 1s ease-in-out;
+  
+  }
+
+  .labelQ12{  
+    left: 34.5rem;
+    top: 2.5rem;
+    color: #003B5C;
+    font-weight: 700;
+
+  }
+  .labelQ16{  
+	left: 11rem;
+    top: 5.5rem;
+    color: #003B5C;
+    font-weight: 700;
+
+  }
+  .labelQ121{
+	left: 10.5rem;
+    top: 2.5rem;
+    color: #003B5C;
+    font-weight: 700;
+  }
+
+  .labelQ12_val{  
+    left: 34.5rem;
+    top: 20.4rem;
+    color: #003B5C;
+    font-weight: 700;
+
+  }
+  .labelQ16_val{  
+	left: 11rem;
+    top: 17.4rem;
+    color: #003B5C;
+    font-weight: 700;
+
+  }
+  .labelQ121_val{
+	left: 10.5rem;
+    top: 20.4rem;	
+    color: #003B5C;
+    font-weight: 700;
+  }
